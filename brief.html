@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-brief.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Бриф на розробку сайту</title>
+</head>
+<body>
+    <header class="section" id="home">
+        <div class="nav-bar">
+            <!-- <div class="burger">
+                <img src="images/svg/burger.svg" data-back-src="images/svg/burger2.svg" data-def-src="images/svg/burger.svg" alt="logo" />
+            </div> -->
+            <div class="logo-block">
+                <div class="logo">
+                    <img src="images/svg/logo.svg" alt="logo" />
+                </div>
+                <div class="title">
+                    <p>WEB</p><p>master</p>
+                    <span>NATALIIA LIAPINA</span>
+                </div>
+            </div>
+            <nav class="menu">
+                <ul id="top-menu">
+                   <li><a href="index.html#home">Головна</a></li>
+                   <li><a href="index.html#about_me">Про мене</a></li>
+                   <li><a href="index.html#advantages">Принципи роботи</a></li>
+                   <li><a href="index.html#portfolio">Портфоліо</a></li>
+                   <li><a href="index.html#services">Послуги</a></li>
+                   <li><a href="index.html#working-process">Робочий процес</a></li>
+                   <!-- <li><a href="">Вартість</a></li> -->
+                   <li><a href="index.html#contacts">Контакти</a></li>
+                   <li><a href="brief.html"  class="active">Бриф</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger" id="burger">
+            <div class="menu-line">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+        <div class="hidden-menu">
+            <div class="hidden-menu-header">
+                <div class="hidden-menu-close" id="close">
+                    <img src="images/svg/close.svg" alt="icon">
+                </div>
+            </div>
+            <nav class="menu">
+                <ul class="mobile-menu">
+                    <li><a href="index.html#home" class="active">Головна</a></li>
+                    <li><a href="index.html#about_me">Про мене</a></li>
+                    <li><a href="index.html#advantages">Принципи роботи</a></li>
+                    <li><a href="index.html#portfolio">Портфоліо</a></li>
+                    <li><a href="index.html#services">Послуги</a></li>
+                    <li><a href="index.html#working-process">Робочий процес</a></li>
+                    <!-- <li><a href="">Вартість</a></li> -->
+                    <li><a href="index.html#contacts">Контакти</a></li>
+                    <li><a href="brief.html"  class="active">Бриф</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Бриф на розробку сайту</h1>
+        <hr>
+        <form id="form-brief">
+            <h3>Знайомство</h3>
+            <label>Ваше ім'я та прізвище</label>
+            <input type="text" name="name">
+            <label>Ваш телефон</label>
+            <input type="tel" name="phone">
+            <label>Ваш E-mail</label>
+            <input type="email" name="mail">
+            <label>Як зручніше з Вами зв'язатися?</label>
+            <p><input type="radio" name="communication"><label>Viber</label></p>
+            <p><input type="radio" name="communication"><label>Telegram</label></p>
+            <p><input type="radio" name="communication"><label>E-mail</label></p>
+            <p class="p-last"><input type="radio" name="communication"><label>Дзвінок</label></p>
+            <label>Як Ви про мене дізналися?</label>
+            <input type="text" name="source">
+            <label>Що для Вас важливо в процесі нашої роботи?</label>
+            <input type="text" name="important">
+
+            <h3>Вступна інформація</h3>
+            <label>Товар/послуга, для якого потрібен сайт</label>
+            <input type="text" name="product">
+            <label>Які цілі Ви ставите? Наприклад, продаж товару чи послуги, реєстрація на курс, реклама</label>
+            <input type="text" name="goal">
+            <label>Хто Ваші клієнти? Що для них має бути важливо при виборі</label>
+            <input type="text" name="customers">
+
+            <h3>Структура і функціонал сайту</h3>
+            <label>Основні блоки/розділи, які мають бути на сайті</label>
+            <input type="text" name="chapters">
+            <label>Який функціонал повинен бути на сайті?</label>
+            <input type="text" name="functional">
+            <label>Чи потрібен мультиязичний сайт? Вкажіть мови</label>
+            <input type="text" name="lang">
+
+            <h3>Дизайн сайту</h3>
+            <label>Які відчуття має викликати сайт у відвідувачів? Наприклад, це надійна компанія або це інноваційна компанія</label>
+            <input type="text" name="feeling">
+            <label>Чи є у вас логотип?</label>
+            <p><input type="radio" name="logo"><label>Так</label></p>
+            <p class="p-last"><input type="radio" name="logo"><label>Ні</label></p>
+            <label>Яка палітра кольорів має бути на сайті?</label>
+            <input type="text" name="colors">
+            <label>Наведіть приклади сайтів, які Вам подобаються і чому</label>
+            <input type="text" name="like">
+            <label>Наведіть приклади сайтів, які Вам не подобаються і чому</label>
+            <input type="text" name="dislike">
+            <button type="submit">Відправити</button>
+            <p id="brief-form__message"></p>
+        </form>
+    </main>
+    <footer>
+        <div class="my-photo"></div>
+        <h1>Наталія Ляпіна</h1>
+        <h2>Розробник сайтів</h2>
+        <div class="footer-icons">
+            <a href="https://t.me/Nataliia_Liapina" target="_blank"><div class="contact-icon telegram"></div></a>
+            <!-- <div class="contact-icon email"></div> -->
+        </div>
+        <div class="copyright">
+            <script>
+                document.write("&copy; "+ new Date().getFullYear()+ " WEB master");
+              </script>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ajax-brief.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

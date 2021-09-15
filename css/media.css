@@ -1,0 +1,292 @@
+@media screen and (max-width: 976px) {
+  header {
+    height: 100%;
+    display: block;
+    padding-top: 60px;
+    box-sizing: border-box; }
+    header .nav-bar {
+      width: 100%;
+      height: 60px;
+      position: fixed;
+      top: 0;
+      padding: 0;
+      z-index: 999; }
+      header .nav-bar .logo-block {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        header .nav-bar .logo-block .logo {
+          margin-bottom: 0;
+          margin-right: 5px; }
+        header .nav-bar .logo-block .title {
+          font-size: 26px; }
+          header .nav-bar .logo-block .title p {
+            margin: 0;
+            margin-left: 5px;
+            float: left; }
+          header .nav-bar .logo-block .title span {
+            display: none; }
+      header .nav-bar nav.menu ul {
+        display: none; }
+    header .burger {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999; }
+    header .main-screen {
+      width: 100%;
+      min-height: 100%;
+      height: auto;
+      padding: 60px;
+      margin-left: 0;
+      clear: both; }
+      header .main-screen .photo {
+        height: 80px; }
+        header .main-screen .photo .my-photo {
+          width: 80px;
+          height: 80px; }
+      header .main-screen h1 {
+        font-size: 56px; }
+      header .main-screen p {
+        font-size: 20px; }
+      header .main-screen button {
+        padding: 15px 35px; }
+  main {
+    margin-left: 0; }
+    main .about_me {
+      display: block;
+      padding: 60px; }
+      main .about_me .about_me-left {
+        width: 100%; }
+        main .about_me .about_me-left p {
+          margin-bottom: 40px; }
+        main .about_me .about_me-left button {
+          padding: 15px 35px; }
+      main .about_me .about_me-right {
+        width: 100%;
+        margin-top: 50px; }
+        main .about_me .about_me-right .about_me-avatar {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: auto; }
+          main .about_me .about_me-right .about_me-avatar .my-avatar {
+            width: 350px;
+            height: 350px;
+            margin-right: 0; }
+          main .about_me .about_me-right .about_me-avatar .about_me-name {
+            width: 100%;
+            font-size: 26px; }
+            main .about_me .about_me-right .about_me-avatar .about_me-name p {
+              text-align: left; }
+    main .advantages .advantages-block {
+      padding: 60px; }
+      main .advantages .advantages-block .quality {
+        padding: 10px; }
+    main .portfolio {
+      padding: 60px 0px; }
+      main .portfolio .js-next,
+      main .portfolio .js-prev {
+        top: 350px; }
+      main .portfolio button.but {
+        padding: 15px 35px; }
+    main .services {
+      padding: 60px; }
+      main .services .flip {
+        display: flex;
+        justify-content: space-between; }
+        main .services .flip .flip-container .front h2 {
+          font-size: 24px; }
+    main .working-process .working-process-block {
+      padding: 60px; }
+      main .working-process .working-process-block .process {
+        padding: 10px; }
+    main .contacts {
+      padding: 60px; }
+      main .contacts .contact-block .contact-form form input[type="submit"] {
+        padding: 15px 35px; }
+  footer {
+    padding: 60px 60px 20px 60px;
+    margin-left: 0; }
+    footer h1 {
+      font-size: 24px; }
+    footer h2 {
+      font-size: 20px; } }
+
+@media screen and (max-width: 760px) {
+  header .main-screen h1 {
+    font-size: 50px; }
+  header .main-screen p {
+    font-size: 20px;
+    margin-top: 20px; }
+  main .advantages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .advantages .advantages-block {
+      width: 100%; }
+    main .advantages .advantages-picture {
+      width: 100%;
+      height: 250px; }
+  main .portfolio .js-next,
+  main .portfolio .js-prev {
+    top: 320px; }
+  main .services .flip {
+    display: block; }
+    main .services .flip .flip-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      height: 300px;
+      margin-bottom: 25px; }
+      main .services .flip .flip-container:last-child {
+        margin-bottom: 0; }
+      main .services .flip .flip-container .front, main .services .flip .flip-container .back {
+        height: 300px; }
+  main .call-to-action h1 {
+    font-size: 28px; }
+    main .call-to-action h1.call-1 {
+      text-align: right; }
+  main .call-to-action h2 {
+    font-size: 28px; }
+  main .working-process {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .working-process .working-process-picture {
+      width: 100%;
+      height: 250px; }
+    main .working-process .working-process-block {
+      width: 100%; }
+  main .contacts .contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .contacts .contact-block .contact-info {
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 50px; }
+    main .contacts .contact-block .contact-form {
+      width: 100%;
+      padding-left: 0; } }
+
+@media screen and (max-width: 685px) {
+  header {
+    height: auto;
+    display: flex;
+    justify-content: center; }
+    header .main-screen {
+      padding: 40px; }
+      header .main-screen .photo {
+        display: block;
+        height: auto;
+        height: 110px; }
+        header .main-screen .photo .my-photo {
+          width: 110px;
+          height: 110px;
+          margin-right: 0;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 20px; }
+        header .main-screen .photo .my-name {
+          width: 100%;
+          text-align: center;
+          font-size: 20px; }
+      header .main-screen h1 {
+        font-size: 46px;
+        text-align: center;
+        margin-top: 80px; }
+      header .main-screen p {
+        text-align: center; }
+      header .main-screen .main-btn {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px; }
+        header .main-screen .main-btn button {
+          width: 100%; }
+          header .main-screen .main-btn button.btn1 {
+            margin-bottom: 15px; }
+  main .about_me {
+    padding: 60px 40px; }
+  main .advantages .advantages-block {
+    padding: 60px 40px; }
+    main .advantages .advantages-block .quality {
+      width: 100%;
+      float: none;
+      padding: 15px 0px;
+      margin-bottom: 30px; }
+  main .portfolio .owl-carousel .owl-stage-outer {
+    padding: 20px 0px; }
+  main .portfolio .js-next,
+  main .portfolio .js-prev {
+    position: absolute;
+    top: 410px; }
+  main .services {
+    padding: 60px 40px; }
+  main .working-process .working-process-block {
+    padding: 60px 40px; }
+    main .working-process .working-process-block .row {
+      display: block; }
+      main .working-process .working-process-block .row .process {
+        width: 100%;
+        padding: 15px 0px;
+        margin-bottom: 50px; }
+  main .contacts {
+    padding: 60px 40px; }
+  footer {
+    padding: 60px 40px 20px 40px; } }
+
+@media screen and (max-width: 605px) {
+  header .main-screen .photo {
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 535px) {
+  header .main-screen .main-btn {
+    width: 80%; }
+  main .portfolio .js-next,
+  main .portfolio .js-prev {
+    position: absolute;
+    top: 380px; } }
+
+@media screen and (max-width: 480px) {
+  header .main-screen {
+    padding: 40px 20px; }
+  main .about_me {
+    padding: 60px 20px; }
+  main .advantages .advantages-block {
+    padding: 60px 20px; }
+  main .portfolio p {
+    padding: 0px 20px; }
+  main .portfolio .js-next,
+  main .portfolio .js-prev {
+    position: absolute;
+    top: 350px; }
+  main .call-to-action h1 {
+    font-size: 24px; }
+  main .call-to-action h2 {
+    font-size: 24px; }
+  main .services {
+    padding: 60px 20px; }
+  main .working-process .working-process-block {
+    padding: 60px 20px; }
+  main .contacts {
+    padding: 60px 20px; }
+  footer {
+    padding: 60px 20px 20px 20px; }
+  form#form-brief {
+    width: 90%; } }
+
+@media screen and (max-width: 375px) {
+  header .main-screen {
+    padding: 40px 10px; }
+    header .main-screen .main-btn {
+      width: 90%; }
+  main .services .flip .flip-container {
+    height: 350px; }
+    main .services .flip .flip-container .front, main .services .flip .flip-container .back {
+      height: 350px; } }
+
+/*# sourceMappingURL=media.css.map */
